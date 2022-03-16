@@ -1,0 +1,32 @@
+{
+  "chains": [
+    {
+      "name": "Rinkeby",
+      "type": "ethereum",
+      "id": "0",
+      "endpoint": "wss://rinkeby.infura.io/ws/v3/d8bc996a3de2485699d8cab6194a02d2",
+      "from": "0xF80eDC20867af6817c958ABEEB618161331817EE",
+      "opts": {
+        "bridge": "0xe0F581b728733d20145e20823587eb6937103f45",
+        "erc20Handler": "0xdE830816b68413C3566105dad30ffAba308Fc286",
+        "genericHandler": "0xdE830816b68413C3566105dad30ffAba308Fc286",
+        "gasLimit": "1000000",
+        "maxGasPrice": "10000000000"
+      }
+    },
+    {
+      "name": "Codex TestNet",
+      "type": "ethereum",
+      "id": "1",
+      "endpoint": "wss://node.testnet2.mintnetwork.org/ws",
+      "from": "0xF80eDC20867af6817c958ABEEB618161331817EE",
+      "opts": {
+        "bridge": "0xe0F581b728733d20145e20823587eb6937103f45",
+        "erc20Handler": "0xdE830816b68413C3566105dad30ffAba308Fc286",
+        "genericHandler": "0xdE830816b68413C3566105dad30ffAba308Fc286",
+        "gasLimit": "1000000",
+        "maxGasPrice": "10000000000"
+      }
+    }
+  ]
+}
